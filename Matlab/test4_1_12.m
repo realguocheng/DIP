@@ -1,0 +1,14 @@
+clc,clear;
+M=512;
+x=0:M-1;
+f0 = [1,zeros(1,M-1)];
+f1 = ones(1,M);
+F0 = Fourier(f0,M);
+F1 = Fourier(f1,M);
+T1 = abs(F0);
+T2 = abs(F1);
+%subplot(211);
+%plot(x,abs(F0));
+%subplot(212);
+T2(1) = 0;
+plot(x,T2);

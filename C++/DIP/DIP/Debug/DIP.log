@@ -1,0 +1,10 @@
+﻿生成启动时间为 2016/12/7 14:02:31。
+     1>项目“C:\Users\GuoCheng\documents\visual studio 2015\Projects\DIP\DIP\DIP.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\GuoCheng\documents\visual studio 2015\Projects\DIP\Debug\DIP.exe" /INCREMENTAL /NOLOGO opencv_ts300.lib opencv_world300.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\GuoCheng\documents\visual studio 2015\Projects\DIP\Debug\DIP.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\GuoCheng\documents\visual studio 2015\Projects\DIP\Debug\DIP.lib" /MACHINE:X86 Debug\wiener.obj
+         DIP.vcxproj -> C:\Users\GuoCheng\documents\visual studio 2015\Projects\DIP\Debug\DIP.exe
+     1>已完成生成项目“C:\Users\GuoCheng\documents\visual studio 2015\Projects\DIP\DIP\DIP.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.57

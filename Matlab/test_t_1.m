@@ -1,0 +1,9 @@
+I=imread('2-1.tif');
+figure(2);
+subplot(1,2,1);
+imshow(I);
+J=histeq(I);
+subplot(1,2,2);
+imshow(J);
+figure(3);
+imhist(J);

@@ -1,0 +1,10 @@
+clc,clear;
+ori=imread('1-1.tif');
+orit=ori;
+x=input('请输入x坐标: ');
+y=input('请输入y坐标: ');
+p=input('请输入像素值: ');
+orit(x,y)=p;
+imwrite(orit,'1-1-1.jpg');
+figure(1);
+imshow(orit);

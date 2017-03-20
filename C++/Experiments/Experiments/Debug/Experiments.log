@@ -1,0 +1,16 @@
+﻿  4_1_12.cpp
+d:\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\codedocuments\4_1_12.cpp(5): error C2131: 表达式的计算结果不是常数
+  d:\codedocuments\4_1_12.cpp(5): note: 非常量参数或对非常量符号的引用导致了故障
+  d:\codedocuments\4_1_12.cpp(5): note: 请参见“M”的用法
+d:\codedocuments\4_1_12.cpp(6): error C2065: “f”: 未声明的标识符
+d:\codedocuments\4_1_12.cpp(7): error C2131: 表达式的计算结果不是常数
+  d:\codedocuments\4_1_12.cpp(7): note: 非常量参数或对非常量符号的引用导致了故障
+  d:\codedocuments\4_1_12.cpp(7): note: 请参见“M”的用法
+d:\codedocuments\4_1_12.cpp(10): error C2131: 表达式的计算结果不是常数
+  d:\codedocuments\4_1_12.cpp(10): note: 非常量参数或对非常量符号的引用导致了故障
+  d:\codedocuments\4_1_12.cpp(10): note: 请参见“M”的用法
+d:\codedocuments\4_1_12.cpp(12): error C3863: 不可指定数组类型“double [M]”
+d:\codedocuments\4_1_12.cpp(13): error C3863: 不可指定数组类型“double [M]”

@@ -1,0 +1,13 @@
+clc,clear;
+image = imread('2-1.tif');
+image = mat2gray(image);
+subplot(1,3,1);
+imshow(image,[0 1]);
+c = 1;v = 70;
+image_a = c*log(1+v*image)/log(v+1);
+subplot(1,3,2);
+imshow(image_a,[0 1]);
+gama = 0.4;
+image_b = c*image.^gama;
+subplot(1,3,3);
+imshow(image_b,[0 1]);

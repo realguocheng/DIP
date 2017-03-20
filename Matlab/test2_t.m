@@ -1,0 +1,11 @@
+clc,clear;
+I=imread('2-2.tif');
+I=im2double(I);
+H=[-1,-1,-1;-1,8,-1;-1,-1,-1];
+NI=imfilter(I,H,'replicate');
+%NI=im2uint8(NI);
+NI1=I+NI;
+figure(1);
+imshow(NI1);
+figure(2);
+imshow(imread('2-2.tif'));
